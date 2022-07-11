@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 public class CourseController {
-
+     //Controller class
     //Id, Name, author
     @RequestMapping("/allCourses")
     public List<Course> getAllCourses() {
